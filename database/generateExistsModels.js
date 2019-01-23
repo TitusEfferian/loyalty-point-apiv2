@@ -8,6 +8,5 @@ var auto = new SequelizeAuto('ralaliweb_db','intern_Rll_2018','Ralali2018_RLL_In
 
 auto.run(function(err){
     if(err) throw err
-
     console.log(auto.tables)
 })
