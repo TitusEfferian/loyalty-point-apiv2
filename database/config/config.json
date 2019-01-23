@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "intern_Rll_2018",
+    "password": "Ralali2018_RLL_Intern",
+    "database": "ralaliweb_db",
+    "host": "149.129.214.194:3308",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "intern_Rll_2018",
+    "password": "Ralali2018_RLL_Intern",
+    "database": "ralaliweb_db",
+    "host": "149.129.214.194:3308",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "intern_Rll_2018",
+    "password": "Ralali2018_RLL_Intern",
+    "database": "ralaliweb_db",
+    "host": "149.129.214.194:3308",
+    "dialect": "mysql"
+  }
+}
