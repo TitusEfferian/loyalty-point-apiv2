@@ -15,6 +15,7 @@
     "morgan": "~1.9.0",
     "mysql": "^2.16.0",
     "sequelize-auto": "^0.4.29",
+    "stellar-sdk": "^0.11.0",
     "voucher-code-generator": "^1.1.1"
   }
 }
