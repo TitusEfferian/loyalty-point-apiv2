@@ -6,7 +6,7 @@ router.get('/', function (req, res) {
   res
     .status(200)
     .send({
-      data:'welcome to loyalty point api v1'
+      data:'welcome to loyalty point api v2'
     })
 });
 
