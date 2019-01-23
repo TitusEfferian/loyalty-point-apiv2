@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser'
 import logger from 'morgan'
 import indexRouter from './routes/index'
 import usersRouter from './routes/users'
+import generateKey from './routes/generateKey'
 
 var app = express();
 
@@ -15,5 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/v2/', indexRouter);
 app.use('/api/v2/users', usersRouter);
+app.use('/api/v2/generate_key',generateKey)
+
 
 module.exports = app;
