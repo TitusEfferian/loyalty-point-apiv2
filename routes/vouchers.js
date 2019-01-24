@@ -15,4 +15,10 @@ router.get('/list', function (req, res) {
     })
 });
 
+router.get('/generate',function(req,res){
+    res.status(200).send({
+        data:true
+    })
+})
+
 export default router
