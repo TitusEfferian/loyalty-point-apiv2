@@ -3,7 +3,7 @@ var auto = new SequelizeAuto('ralaliweb_db','intern_Rll_2018','Ralali2018_RLL_In
     host:'149.129.214.194',
     port:3308,
     dialect:'mysql',
-    tables:['rl_user_key','rl_tmp_points'],
+    tables:['rl_user_key','rl_tmp_points','rl_redeem_points','rl_ms_promo'],
     additional: {
         timestamps: false
     },
