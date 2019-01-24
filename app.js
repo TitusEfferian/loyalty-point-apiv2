@@ -5,6 +5,7 @@ import logger from 'morgan'
 import indexRouter from './routes/index'
 import usersRouter from './routes/users'
 import generateKey from './routes/generateKey'
+import vouchersRouter from './routes/vouchers'
 
 var app = express();
 
@@ -17,6 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/v2/', indexRouter);
 app.use('/api/v2/users', usersRouter);
 app.use('/api/v2/generate_key',generateKey)
+app.use('/api/v2/vouchers',vouchersRouter)
 
 
 module.exports = app;
