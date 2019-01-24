@@ -1,3 +1,9 @@
+/**
+ * bagian ini ditulis manual dengan referensi pada https://github.com/sequelize/sequelize-auto
+ * yang bertujuan untuk membuat models berdasarkan table yang sudah ada,
+ * cara menjalankan script ini, cukup buka terminal dan siapkan path berada pada lokasi folder ./database
+ * dan jalankan 'node generateExistsModels.js'
+ */
 var SequelizeAuto = require('sequelize-auto')
 var auto = new SequelizeAuto('ralaliweb_db','intern_Rll_2018','Ralali2018_RLL_Intern',{
     host:'149.129.214.194',

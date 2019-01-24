@@ -1,3 +1,12 @@
+/**
+ * bagian ini auto generate menggunakan sequelize-cli,
+ * untuk info lebih jelas dapat dipelajari pada
+ * https://sequelize.readthedocs.io/en/1.7.0/articles/express/
+ * 
+ * dan dikarenakan kita akan menggunakan table yang sudah ada pada database,
+ * maka kita dapat membuat model dengan 'sequelize-auto' yang sudah dibuat pada
+ * files '../generateExistsModels.js'
+ */
 'use strict';
 
 const fs = require('fs');
