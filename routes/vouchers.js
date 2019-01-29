@@ -1,8 +1,8 @@
 import express from 'express'
 var router = express.Router();
-import { showListVoucher, generateVoucher } from '../controller/vouchers';
+import { showListVoucher, buyVouchers,  } from '../controller/vouchers';
 router.get('/list', showListVoucher);
 
-router.post('/generate',generateVoucher)
+router.post('/buy_voucher',buyVouchers)
 
 export default router
