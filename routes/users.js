@@ -7,6 +7,6 @@ router.get('/', findAll);
 
 router.get('/:id', findById)
 
-router.get('/generate_key',generateKey)
+router.post('/generate_key',generateKey)
 
 export default router
