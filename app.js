@@ -16,8 +16,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/v2/', indexRouter);
-app.use('/api/v2/users', usersRouter);
-app.use('/api/v2/generate_key',generateKey)
+app.use('/api/v2/user', usersRouter);
 app.use('/api/v2/voucher',vouchersRouter)
 
 
